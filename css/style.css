@@ -26,6 +26,7 @@
 
 header{
     width: 100%;
+    min-width: 1108px;
 }
 nav li{
     display: inline-block;
@@ -85,6 +86,7 @@ header .cont-header:nth-of-type(2){
     height: 700px;
     background-color: lightblue;
     margin: 0 auto;
+    min-width: 1154px;
 }
 #jumbotron #jumbo-h{
     font-size: 50px;
@@ -103,4 +105,30 @@ header .cont-header:nth-of-type(2){
 }
 #jumbo-img img{
     width: 100%;
+}
+
+/*---- section price ----*/
+
+#price-main > h2{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+#price-main{
+    padding: 200px 200px 0 ;
+}
+#price-main label{
+    padding: 0 40px 0 0;
+    font-weight: 600;
+}
+
+.row-columns{
+    width: 100%;
+}
+.column{
+    width: calc(100% / 3 - 20px);
+    border: 1px solid grey;
+    display: inline-block;
+}
+.row-columns .column:nth-child(2){
+    margin: 0 20px;
 }
