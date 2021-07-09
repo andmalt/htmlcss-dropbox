@@ -12,7 +12,18 @@
 
 /*------ header ------*/
 
+.nav-h,#logo{
+    display: inline-block;
+    padding: 25px 20px;
+    vertical-align: middle;
+}
+#button-init{
+    display: inline-block;
+    padding: 20px 20px;
+    vertical-align: middle;
+}
 /* header left */
+
 header{
     width: 100%;
 }
@@ -30,13 +41,22 @@ li a{
     list-style-type: none;
 }
 .cont-header{
-    width: 40%;
+    width: 35%;
 }
 header .cont-header:nth-of-type(1){
     float: left;
 }
-.nav-h,#logo{
-    display: inline-block;
-    padding: 25px 20px;
-    vertical-align: middle;
+
+/* header right */
+.nav-right,#button-init{
+    float: right;
+}
+header .cont-header:nth-of-type(2){
+    float: right;
+}
+#button-init button{
+    border: none;
+    background-color:rgb(21, 73, 214);
+    padding: 7px 18px;
+    color: white;
 }
