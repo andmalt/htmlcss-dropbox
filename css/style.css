@@ -128,7 +128,17 @@ header .cont-header:nth-of-type(2){
     width: calc(100% / 3 - 20px);
     border: 1px solid grey;
     display: inline-block;
+    margin: 30px auto;
 }
 .row-columns .column:nth-child(2){
     margin: 0 20px;
+}
+.row-columns > .column h5 > span{
+    padding-right: 10px;
+}
+.row-columns > .column > h5{
+    text-align: center;
+}
+.column-text-offer,.column-text-details{
+    padding: 0 20px;
 }
