@@ -74,12 +74,12 @@ header .cont-header:nth-of-type(2){
     background-color:rgb(21, 73, 214);
     padding: 15px 30px;
 }
-#jumbo-t li:nth-of-type(1) a{
-    color: white;
-}
 .arrow-d{
     padding-top: 40px;
     font-size: 30px;
+}
+#jumbo-t li:nth-of-type(1) a{
+    color: white;
 }
 #jumbotron{
     width: 100%;
@@ -120,18 +120,37 @@ header .cont-header:nth-of-type(2){
     padding: 0 40px 0 0;
     font-weight: 600;
 }
+/* columns  */
 
 .row-columns{
     width: 100%;
 }
 .column{
     width: calc(100% / 3 - 20px);
-    border: 1px solid grey;
+    border: 1px solid lightgray;
     display: inline-block;
-    margin: 30px auto;
+    margin: 30px auto 10px;
+    vertical-align: top;
+}
+.column:last-child{
+    width: 99%;
+}
+.column:last-child .column-text-offer,
+.column-contact-link{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.column:last-child .column-text-offer p{
+    font-size: 13px;
+    padding: 12px 0;
+}
+.column > hr{
+    border: none;
+    border-bottom: 1px solid lightgray;
 }
 .row-columns .column:nth-child(2){
-    margin: 0 20px;
+    margin: 30px 20px 10px;
 }
 .row-columns > .column h5 > span{
     padding-right: 10px;
@@ -141,4 +160,71 @@ header .cont-header:nth-of-type(2){
 }
 .column-text-offer,.column-text-details{
     padding: 0 20px;
+}
+.column-text-offer > h4{
+    font-size: 30px;
+    padding: 45px 0 12px;
+}
+.column-text-offer > .offer-price{
+    font-weight: 700;
+}
+
+
+.offer-client{
+    color: grey;
+    font-weight: 400;
+    padding: 10px 0 35px;
+}
+.column-text-details ul{
+    padding: 10px 0;
+}
+.column-text-details ul,ul > li{
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: text-top;
+}
+.column-text-details button{
+    margin: 20px 0;
+    padding: 5px 80px;
+    background-color:rgb(21, 73, 214);
+    color: white;
+    border: none;
+}
+.column-text-details a{
+    color:rgb(21, 73, 214);
+}
+.column-text-details p{
+    padding-bottom: 20px;
+}
+.column-text-details hr{
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid lightgray;
+    width: 25%;
+}
+.column-text-details ul > span{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.column-text-details ul:nth-of-type(4) i{
+    color:rgb(21, 73, 214);
+}
+.column-text-details ul:nth-of-type(4) > ul{
+    padding: 10px 0; 
+}
+.column-text-details ul:nth-of-type(4) > ul:last-child{
+    margin-bottom: 100px;
+}
+.column:first-child .column-text-details ul:nth-of-type(4) > ul:last-child{
+    margin-bottom: 142px;
+}
+.column-contact-link li a{
+    background-color:rgb(21, 73, 214);
+    border: none;
+    color: white;
+    padding: 10px 40px;
+}
+.column-contact-link li{
+    padding: 10px 40px;
 }
