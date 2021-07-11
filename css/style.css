@@ -109,14 +109,14 @@ header .cont-header:nth-of-type(2){
 
 /*---- section price ----*/
 
-#price-main > h2{
+#main-price > h2{
     font-size: 40px;
     padding-bottom: 40px;
 }
-#price-main{
+#main-price{
     padding: 200px 200px 0 ;
 }
-#price-main label{
+#main-price label{
     padding: 0 40px 0 0;
     font-weight: 600;
 }
@@ -168,8 +168,6 @@ header .cont-header:nth-of-type(2){
 .column-text-offer > .offer-price{
     font-weight: 700;
 }
-
-
 .offer-client{
     color: grey;
     font-weight: 400;
@@ -183,9 +181,12 @@ header .cont-header:nth-of-type(2){
     list-style-type: none;
     vertical-align: text-top;
 }
-.column-text-details button{
-    margin: 20px 0;
-    padding: 5px 80px;
+.column nav > li{
+    margin: 40px auto;   
+}
+.column nav > li a{
+    padding: 10px 45px;
+    margin: 10px auto;
     background-color:rgb(21, 73, 214);
     color: white;
     border: none;
@@ -228,3 +229,74 @@ header .cont-header:nth-of-type(2){
 .column-contact-link li{
     padding: 10px 40px;
 }
+
+/*------- section explication --------*/
+
+.row-p{
+    width: 100%;
+}
+.image-exp > img{
+    width: 100%;
+}
+.image-exp{
+    float: left;
+    width: 60%;
+}
+
+.text-par{
+    float: left;
+    width: 40%;
+    padding: 30px 50px 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.text-par > h5{
+    padding: 20px 0;
+    font-size: 25px;
+}
+.text-par a{
+    background-color:white;
+    color:black;
+    padding: 8px 25px;
+    border: 1px solid black;
+}
+.text-par li{
+    padding: 30px 0;
+}
+.row-expl{
+    width: 100%;
+}
+.row-c{
+    width: calc(100% / 3 - 40px);
+    display: inline-block;
+}
+.row-c:nth-of-type(2){
+    margin: 0 40px;
+}
+.row-c .cont-image img{
+    width: 100%;
+}
+.cont-text h3{
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+.cont-text p{
+    font-weight: 600;
+    font-size: 14px;
+}
+.row-2-e{
+    padding-top: 50px;
+}
+.cont-1:nth-of-type(1) .cont-text span{
+    text-decoration: underline;
+}
+#big-expl{
+    padding: 150px 200px 0 ;
+}
+#big-expl > h2{
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+/*------------ section team -----------  */
+
