@@ -83,7 +83,6 @@ header .cont-header:nth-of-type(2){
 }
 #jumbotron{
     width: 100%;
-    height: 700px;
     background-color: lightblue;
     margin: 0 auto;
     min-width: 1154px;
@@ -102,9 +101,12 @@ header .cont-header:nth-of-type(2){
     display: inline-block;
     width: 60%;
     padding-top: 20px;
+    margin: 50px 0 0 100px
+
 }
 #jumbo-img img{
-    width: 100%;
+    width: 75%;
+    transform: scale( 1.3 , 1.3 );
 }
 
 /*---- section price ----*/
@@ -173,13 +175,19 @@ header .cont-header:nth-of-type(2){
     font-weight: 400;
     padding: 10px 0 35px;
 }
+/* .column-text-details{
+
+    ---prova----
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
 .column-text-details ul{
     padding: 10px 0;
 }
 .column-text-details ul,ul > li{
-    display: inline-block;
     list-style-type: none;
-    vertical-align: text-top;
+    vertical-align: baseline;
 }
 .column nav > li{
     margin: 40px auto;   
@@ -300,3 +308,14 @@ header .cont-header:nth-of-type(2){
 
 /*------------ section team -----------  */
 
+#title-expl{
+    padding: 200px 200px 0;
+}
+#title-expl h2{
+    font-size: 45px;
+    padding-right: 55%;
+    padding-bottom: 40px;
+}
+#title-expl a{
+    color: rgb(21, 73, 214);
+}
