@@ -85,7 +85,7 @@ header .cont-header:nth-of-type(2){
     width: 100%;
     background-color: lightblue;
     margin: 0 auto;
-    min-width: 1154px;
+    min-width: 1324px;
 }
 #jumbotron #jumbo-h{
     font-size: 50px;
@@ -318,4 +318,63 @@ header .cont-header:nth-of-type(2){
 }
 #title-expl a{
     color: rgb(21, 73, 214);
+    font-weight: 700;
+}
+.big-container{
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+}
+
+/*--- first container ---*/
+
+.b-container{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.b-container:nth-of-type(2){
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.s-con{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.s-con > img{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50% );
+    filter: invert(1);
+}
+
+.b-1{
+    background-color: lightgreen;
+}
+.b-2{
+    background-color: purple;
+}
+.b-3{
+    background-color: lightskyblue;
+}
+.b-4{
+    background-color: orange;
+}
+.b-5{
+    background-color: red;
+}
+.b-6{
+    background-color: lightgrey;
+}
+.b-7{
+    background-color: blue;
+}
+.b-8{
+    background-color: gold;
 }
