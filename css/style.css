@@ -47,6 +47,7 @@ header .cont-header:nth-of-type(1){
 }
 
 /* header right */
+
 .nav-right,#button-init{
     float: right;
 }
@@ -326,18 +327,14 @@ header .cont-header:nth-of-type(2){
     margin-top: 50px;
 }
 
-/*--- first container ---*/
+/*--- first container and third ---*/
 
 .b-container{
     width: 30%;
     height: 100%;
     float: left;
 }
-.b-container:nth-of-type(2){
-    width: 40%;
-    height: 100%;
-    float: left;
-}
+
 .s-con{
     width: calc(100% / 2);
     height: calc(100% / 2);
@@ -356,25 +353,60 @@ header .cont-header:nth-of-type(2){
 
 .b-1{
     background-color: lightgreen;
+    border: 15px solid rgb(190, 235, 190);
 }
 .b-2{
-    background-color: purple;
+    background-color: rgb(78, 11, 78);
 }
 .b-3{
-    background-color: lightskyblue;
+    background-color: rgb(38, 172, 255);
 }
 .b-4{
-    background-color: orange;
+    background-color: rgb(255, 30, 0);
 }
 .b-5{
-    background-color: red;
+    background-color: rgb(175, 0, 0);
 }
 .b-6{
-    background-color: lightgrey;
+    background-color: rgb(168, 193, 194);
 }
 .b-7{
-    background-color: blue;
+    background-color: rgb(0, 0, 99);
 }
 .b-8{
     background-color: gold;
 }
+
+/* second container */
+
+.b-container:nth-of-type(2){
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-color: rgb(236, 233, 233);
+}
+.b-container:nth-of-type(2) hr{
+    width: 20%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    margin-left: 60px;
+}
+.t-co{
+    padding: 40px 60px;
+}
+.author-t{
+    padding: 20px 60px;
+}
+#center-con-logo{
+    width: 40%;
+    height: 25%;
+    position: relative;
+}
+#center-con-logo img{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
