@@ -386,21 +386,24 @@ header .cont-header:nth-of-type(2){
     background-color: rgb(236, 233, 233);
 }
 .b-container:nth-of-type(2) hr{
-    width: 20%;
+    width: 15%;
     border: none;
     border-bottom: 1px solid lightgray;
     margin-left: 60px;
 }
 .t-co{
     padding: 40px 60px;
+    font-weight: 600;
 }
 .author-t{
     padding: 20px 60px;
+    font-weight: 600;
 }
 #center-con-logo{
     width: 40%;
     height: 25%;
     position: relative;
+    margin-top: 30px;
 }
 #center-con-logo img{
     width: 60%;
@@ -410,3 +413,42 @@ header .cont-header:nth-of-type(2){
     transform: translate(-50% , -50%);
 }
 
+/* four conatiner */
+
+.f-container{
+    background-color: rgb(168, 193, 194);
+    width: 100%;
+    height: 35vh;
+    position: relative;
+}
+.f-cont-main{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.text-f-cont{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(78, 11, 78);
+    display: inline-block;
+    width: 40%;
+    margin: auto;
+    vertical-align: top;
+    text-align: left;
+}
+.link-f-cont{
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 80px;
+    text-align: left;
+}
+.link-f-cont a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 80px;
+    font-weight: 600;
+}
