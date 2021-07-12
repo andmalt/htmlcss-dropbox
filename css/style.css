@@ -452,3 +452,30 @@ header .cont-header:nth-of-type(2){
     padding: 10px 80px;
     font-weight: 600;
 }
+
+/* questions section before footer */
+
+.questions-section{
+    padding: 40px 200px;
+}
+.questions-section h2{
+    font-size: 35px;
+    padding: 40px 0;
+}
+.questions-section hr{
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+.questions-section hr:last-child{
+    margin-bottom: 60px;
+}
+.question{
+    float: left;
+    padding: 30px 0;
+    font-weight: 700;
+}
+.down-arr{
+    float: right;
+    padding: 30px;
+}
+
