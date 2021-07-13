@@ -316,6 +316,7 @@ header .cont-header:nth-of-type(2){
 }
 #big-expl{
     padding: 150px 200px 0 ;
+    min-width: 1170px;
 }
 #big-expl > h2{
     font-size: 40px;
@@ -340,6 +341,9 @@ header .cont-header:nth-of-type(2){
 #title-expl a{
     color: rgb(21, 73, 214);
     font-weight: 700;
+}
+#teams-section{
+    min-width: 1270px;
 }
 
 /*--- first container and third ---*/
@@ -501,6 +505,7 @@ footer{
     color: white;
     width: 100%;
     padding-left: 200px;
+    min-width: 1270px;
 }
 .line-f{
     width: 100px;
