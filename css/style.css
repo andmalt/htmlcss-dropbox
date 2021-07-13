@@ -86,7 +86,7 @@ header .cont-header:nth-of-type(2){
     width: 100%;
     background-color: lightblue;
     margin: 0 auto;
-    min-width: 1324px;
+    min-width: 1224px;
 }
 #jumbotron #jumbo-h{
     font-size: 50px;
@@ -134,6 +134,7 @@ header .cont-header:nth-of-type(2){
     display: inline-block;
     margin: 30px auto 10px;
     vertical-align: top;
+    min-width: calc(1510px / 3 - 20px);
 }
 .column:last-child{
     width: 99%;
@@ -151,6 +152,15 @@ header .cont-header:nth-of-type(2){
 .column > hr{
     border: none;
     border-bottom: 1px solid lightgray;
+}
+.column ul > li{
+    padding: 12px 0;
+}
+.column ul > li:nth-of-type(6){
+    padding-bottom: 80px;
+}
+.column:nth-of-type(1) ul > li:nth-of-type(5){
+    padding-bottom: 126px;
 }
 .row-columns .column:nth-child(2){
     margin: 30px 20px 10px;
@@ -176,26 +186,27 @@ header .cont-header:nth-of-type(2){
     font-weight: 400;
     padding: 10px 0 35px;
 }
-/* .column-text-details{
-
-    ---prova----
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
 .column-text-details ul{
-    padding: 10px 0;
+    padding: 12px 0;
 }
-.column-text-details ul,ul > li{
+
+.column-text-details ul > li{
     list-style-type: none;
-    vertical-align: baseline;
+}
+.fa-check{
+    color: rgb(21, 73, 214);
+}
+.column nav{
+    text-align: center;
+    margin: 0 auto;
 }
 .column nav > li{
-    margin: 40px auto;   
+    margin: 40px 0;
+    width: 100%;  
 }
 .column nav > li a{
-    padding: 10px 45px;
-    margin: 10px auto;
+    padding: 10px 35px;
+    margin: 10px 0;
     background-color:rgb(21, 73, 214);
     color: white;
     border: none;
@@ -220,6 +231,11 @@ header .cont-header:nth-of-type(2){
 .column-text-details ul:nth-of-type(4) i{
     color:rgb(21, 73, 214);
 }
+.column-text-details ul > li > i > span{
+    color: black;
+    font-weight: 400;
+    padding-left: 10px;
+} 
 .column-text-details ul:nth-of-type(4) > ul{
     padding: 10px 0; 
 }
