@@ -125,7 +125,8 @@ header .cont-header:nth-of-type(2){
 /* columns  */
 
 .row-columns{
-    width: 100%;
+    margin: auto;
+    text-align: center;
 }
 .column{
     width: calc(100% / 3 - 20px);
@@ -134,16 +135,12 @@ header .cont-header:nth-of-type(2){
     margin: 30px auto 10px;
     vertical-align: top;
     min-width: calc(1510px / 3 - 20px);
+    list-style-type: none;
+    text-align: left;
 }
 .column:last-child{
     width: 100%;
 }
-.column:last-child .column-text-offer,
-.column-contact-link{
-    display: inline-block;
-    vertical-align: middle;
-}
-
 .column:last-child .column-text-offer p{
     font-size: 13px;
     padding: 12px 0;
@@ -152,8 +149,13 @@ header .cont-header:nth-of-type(2){
     border: none;
     border-bottom: 1px solid lightgray;
 }
+.column ul > li i{
+    padding: 0 5px 0 0;
+}
 .column ul > li{
     padding: 12px 0;
+    display: flex;
+    align-items: flex-start;
 }
 .column ul > li:nth-of-type(6){
     padding-bottom: 80px;
@@ -170,8 +172,9 @@ header .cont-header:nth-of-type(2){
 .row-columns > .column > h5{
     text-align: center;
 }
-.column-text-offer,.column-text-details{
+.column-text-offer,.column-text-details,.column-contact-link{
     padding: 0 20px;
+    display: inline-block;
 }
 .column-text-offer > h4{
     font-size: 30px;
@@ -252,6 +255,9 @@ header .cont-header:nth-of-type(2){
 }
 .column-contact-link li{
     padding: 10px 40px;
+}
+.column-contact-link{
+    vertical-align: top;
 }
 
 /*------- section explication --------*/
